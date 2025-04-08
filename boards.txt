@@ -180,6 +180,44 @@ mkrzero.bootloader.tool=openocd
 mkrzero.bootloader.tool.default=openocd
 mkrzero.bootloader.file=mkrzero/samd21_sam_ba_arduino_mkrzero.bin
 
+# Arduino custom MKRZero (remove SERCOM5 irq handler)
+# ---------------
+mkrzero_custom.name=MuseoLight custom MKR Zero
+mkrzero_custom.vid.0=0x2341
+mkrzero_custom.pid.0=0x804f
+mkrzero_custom.vid.1=0x2341
+mkrzero_custom.pid.1=0x004f
+mkrzero_custom.upload_port.0.vid=0x2341
+mkrzero_custom.upload_port.0.pid=0x804f
+mkrzero_custom.upload_port.1.vid=0x2341
+mkrzero_custom.upload_port.1.pid=0x004f
+mkrzero_custom.upload_port.2.board=mkrzero
+
+mkrzero_custom.upload.tool=bossac
+mkrzero_custom.upload.tool.default=bossac
+mkrzero_custom.upload.tool.network=arduino_ota
+mkrzero_custom.upload.protocol=sam-ba
+mkrzero_custom.upload.maximum_size=262144
+mkrzero_custom.upload.maximum_data_size=32768
+mkrzero_custom.upload.use_1200bps_touch=true
+mkrzero_custom.upload.wait_for_upload_port=true
+mkrzero_custom.upload.native_usb=true
+mkrzero_custom.build.mcu=cortex-m0plus
+mkrzero_custom.build.f_cpu=48000000L
+mkrzero_custom.build.usb_product="Arduino MKRZero"
+mkrzero_custom.build.usb_manufacturer="Arduino LLC"
+mkrzero_custom.build.board=SAMD_MKRZERO
+mkrzero_custom.build.core=arduino
+mkrzero_custom.build.extra_flags=-DUSE_ARDUINO_MKR_PIN_LAYOUT -D__SAMD21G18A__ {build.usb_flags}
+mkrzero_custom.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
+mkrzero_custom.build.openocdscript=openocd_scripts/arduino_zero.cfg
+mkrzero_custom.build.variant=mkrzero_custom
+mkrzero_custom.build.vid=0x2341
+mkrzero_custom.build.pid=0x804f
+mkrzero_custom.bootloader.tool=openocd
+mkrzero_custom.bootloader.tool.default=openocd
+mkrzero_custom.bootloader.file=mkrzero/samd21_sam_ba_arduino_mkrzero.bin
+
 # Arduino MKR WiFi 1010
 # --------------------
 mkrwifi1010.name=Arduino MKR WiFi 1010
