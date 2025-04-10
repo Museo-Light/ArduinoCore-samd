@@ -12,12 +12,12 @@
         {
           "name": "MuseoLight",
           "architecture": "samd",
-          "version": "1.8.14",
+          "version": "1.8.14a",
           "category": "MuseoLight",
-          "url": "https://github.com/Museo-Light/ArduinoCore-samd/archive/refs/tags/v1.8.14.tar.gz",
-          "archiveFileName": "ArduinoCore-samd-1.8.14.tar.gz",
-          "checksum": "SHA-256:35a973ee4055b618e5bd61e22f223ec6a2dcaf0594d5fa408630ed19cde72e19",
-          "size": "3995973",
+          "url": "https://github.com/Museo-Light/ArduinoCore-samd/archive/refs/tags/v1.8.14a.tar.gz",
+          "archiveFileName": "ArduinoCore-samd-1.8.14a.tar.gz",
+          "checksum": "SHA-256:5fe67279a790ebb723ebc72caf964124d706a553ce9c83fad82ab31c0b5d336f",
+          "size": "3996614",
           "help": {
             "online": ""
           },
