@@ -1,0 +1,116 @@
+{
+  "packages": [
+    {
+      "name": "MuseoLight",
+      "maintainer": "Emmanuel Blineau",
+      "websiteURL": "https://github.com/Museo-Light/ArduinoCore-samd",
+      "email": "emmanuelblineau@gmail.com",
+      "help": {
+        "online": ""
+      },
+      "platforms": [
+        {
+          "name": "MuseoLight",
+          "architecture": "samd",
+          "version": "1.8.14",
+          "category": "MuseoLight",
+          "url": "https://github.com/Museo-Light/ArduinoCore-samd/archive/refs/tags/v1.8.14.tar.gz",
+          "archiveFileName": "ArduinoCore-samd-1.8.14.tar.gz",
+          "checksum": "SHA-256:35a973ee4055b618e5bd61e22f223ec6a2dcaf0594d5fa408630ed19cde72e19",
+          "size": "3995973",
+          "help": {
+            "online": ""
+          },
+          "boards": [
+            {
+              "name": "Arduino MKR WiFi 1010"
+            },
+            {
+              "name": "Arduino Zero"
+            },
+            {
+              "name": "Arduino MKR 1000"
+            },
+            {
+              "name": "Arduino MKR Zero"
+            },
+            {
+              "name": "Arduino MKR FOX 1200"
+            },
+            {
+              "name": "Arduino MKR WAN 1300"
+            },
+            {
+              "name": "Arduino MKR WAN 1310"
+            },
+            {
+              "name": "Arduino MKR GSM 1400"
+            },
+            {
+              "name": "Arduino MKR NB 1500"
+            },
+            {
+              "name": "Arduino MKR Vidor 4000"
+            },
+            {
+              "name": "Arduino Nano 33 IoT"
+            },
+            {
+              "name": "Arduino M0 Pro"
+            },
+            {
+              "name": "Arduino M0"
+            },
+            {
+              "name": "Arduino Tian"
+            },
+            {
+              "name": "Adafruit Circuit Playground Express"
+            },
+            {
+              "name": "MuseoLight custom MKR Zero"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.2.1"
+            },
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino9"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.7.0-arduino3"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.2.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino7"
+            }
+          ]
+        }
+      ],
+      "tools": []
+    }
+  ]
+}
